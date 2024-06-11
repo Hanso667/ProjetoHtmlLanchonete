@@ -1,0 +1,91 @@
+header{
+font-family: Arial, sans-serif;
+background-color: #D8EFD3;
+padding: 10px;
+text-align: start;
+width: relative;
+height: 134px;
+}
+main{
+font-family: Arial, sans-serif;
+background-color: #95D2B3;
+padding: 10px;
+text-align: start;
+width: relative;
+height: 401px;
+}
+footer{
+font-family: Arial, sans-serif;
+background-color: #F1F8E8;
+padding: 10px;
+text-align: start;
+width: relative;
+height: 32px;
+}
+table{
+margin-left: auto;
+margin-right: 10%;
+}
+th {
+text-align: center;
+border:1px solid black;
+}
+nav {
+position: absolute;
+margin: -30px 0 1em;
+}
+nav a {
+text-transform: uppercase;
+font-size: 24px;
+margin: 0 10px;
+text-decoration: none;
+color: #ffffff;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav a:hover{
+color: aqua;
+text-decoration: underline;
+}
+.highlight {
+background-color: #013016;
+}
+.caixa{
+position: relative;
+width: 1274px;
+margin: 0, auto;
+right: -417px;
+top: 3px;
+}
+.titulo_Principal{
+text-align: center;
+font-size: 2em;
+margin: 0 0 1em;
+clear: left;
+}
+.main{
+padding: 3em 0;
+width: 940px;
+margin: 0 auto;
+}
+.main h2{
+margin: 0 0 1em;
+font-size: 1.5em;
+line-height: 1.5;
+}
+h1{
+font-size: 48px;
+position: relative;
+top: -12px;
+right: 96px;
+text-align: center;
+}
+h2{
+font-size: 12x;
+color: aqua;
+}
+img{
+position: relative;
+top: -1px;
+right: -34px;
+width: 202px;
+}
