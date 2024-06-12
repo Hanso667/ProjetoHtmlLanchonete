@@ -1,34 +1,47 @@
+body {
+font-family: 'Montserrat', sans-serif;
+}
 header{
 font-family: Arial, sans-serif;
-background-color: #D8EFD3;
+background-color: #166302;
 padding: 10px;
 text-align: start;
 width: relative;
 height: 134px;
 }
+.banner{
+width: 100%;
+height: 410px;
+right: 0;
+}
 main{
 font-family: Arial, sans-serif;
 background-color: #95D2B3;
-padding: 10px;
+padding: 26px;
 text-align: start;
 width: relative;
-height: 401px;
+height: 700px;
 }
 footer{
 font-family: Arial, sans-serif;
-background-color: #F1F8E8;
+background-color: #0a3602;
 padding: 10px;
 text-align: start;
 width: relative;
 height: 32px;
 }
-table{
-margin-left: auto;
-margin-right: 10%;
+.mapa_conteudo{
+position: relative;
+top: 30px;
+right: -178px;
 }
-th {
-text-align: center;
-border:1px solid black;
+.mapa{
+position: relative;
+top: 25px;
+}
+.missao{
+position: relative;
+top: 11px;
 }
 nav {
 position: absolute;
@@ -43,49 +56,88 @@ color: #ffffff;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 nav a:hover{
-color: aqua;
+color: rgb(0, 255, 179);
 text-decoration: underline;
 }
 .highlight {
 background-color: #013016;
 }
-.caixa{
+.header{
 position: relative;
-width: 1274px;
-margin: 0, auto;
-right: -417px;
-top: 3px;
+width: 1290px;
+height: 130px;
+position: relative;
+text-align: center;
+}
+.header h1{
+text-align: center;
+text-decoration: underline;
+text-transform: uppercase;
+font-family: 'Arial Narrow Bold';
+font-size: 48px;
+color: #ffffff;
+position: relative;
+top: -126px;
+right: 0px;
+}
+.header table{
+color: #ffffff;
+position: relative;
+top: -73px;
+right: -440px;
+margin-left: auto;
+margin-right: 10%;
+}
+.header th{
+text-align: center;
+border:1px solid rgb(255, 255, 255);
+}
+.header img{
+position: relative;
+top: 0;
+right: 530px;
 }
 .titulo_Principal{
+position: relative;
 text-align: center;
 font-size: 2em;
 margin: 0 0 1em;
 clear: left;
+top: 26px;
+}
+.essescaras{
+position: relative;
+top: -45px;
+}
+.sobrenos{
+position: relative;
+top: -11px;
 }
 .main{
+position: relative;
+background-color: #ffffff;
 padding: 3em 0;
 width: 940px;
 margin: 0 auto;
+top: -20px;
+right: 0;
 }
 .main h2{
 margin: 0 0 1em;
 font-size: 1.5em;
 line-height: 1.5;
-}
-h1{
-font-size: 48px;
-position: relative;
-top: -12px;
-right: 96px;
-text-align: center;
-}
-h2{
-font-size: 12x;
-color: aqua;
+color: rgb(1, 148, 1);
 }
 img{
 position: relative;
 top: -1px;
 right: -34px;
 width: 202px;
+}
+.copyright{
+position: relative;
+color: #ffffff;
+text-align: center;
+margin: 0 auto;
+top: 9px;
 }
